@@ -7,10 +7,10 @@ const Card = ({ item }) => {
     return (
 
         <Link to={`/products/${item.id}`}>
-            <div>
-                <div>
-                    <img src={item.img} alt="" />
-                    {/* <img src={item.img} alt="" /> */}
+            <div className="w-60 flex flex-col gap-2">
+                <div className="img-box w-[100%] h-[300px] overflow-hidden relative">
+                    <img className="main-img img-tag" src={item.img} alt="" />
+                    <img className="second-img img-tag" src={item.img2} alt="" />
                 </div>
                 <h2>{item.title}</h2>
                 <div>
