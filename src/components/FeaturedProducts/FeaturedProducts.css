@@ -10,3 +10,8 @@ h1 {
 .bottom {
     gap: 50px;
 }
+
+.hov :hover {
+    text-decoration: underline;
+    transition: transform 0.25s ease-out;
+}
