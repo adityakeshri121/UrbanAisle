@@ -1,0 +1,12 @@
+.space {
+    flex: 3;
+    color: gray;
+}
+
+h1 {
+    flex: 2;
+}
+
+.bottom {
+    gap: 50px;
+}
