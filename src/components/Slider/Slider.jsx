@@ -25,6 +25,7 @@ const Slider = () => {
                 <img className="slider-fit" src={data[0]} alt="" />
                 <img className="slider-fit" src={data[1]} alt="" />
                 <img className="slider-fit" src={data[2]} alt="" />
+                <img className="slider-fit" src={data[2]} alt="" />
             </div>
 
             <div className="flex absolute left-0 right-0 m-auto w-[fit-content] bottom-[100px] gap-2">
