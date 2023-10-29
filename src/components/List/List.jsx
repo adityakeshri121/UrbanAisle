@@ -44,6 +44,15 @@ const List = () => {
             newPrice: 22,
             title: 'Belt'
         },
+        // {
+        //     id: 5,
+        //     img: 'https://assets.ajio.com/medias/sys_master/root/20230624/QSnR/6496ce88eebac147fcfedc9a/-473Wx593H-465355524-rust-MODEL.jpg',
+        //     img2: 'https://assets.ajio.com/medias/sys_master/root/20230624/xSEq/6496ce8eeebac147fcfedcd8/-473Wx593H-465355524-rust-MODEL7.jpg',
+        //     isNew: false,
+        //     oldPrice: 300,
+        //     newPrice: 49,
+        //     title: 'Sweater'
+        // }
     ]
 
     return (

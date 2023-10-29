@@ -6,8 +6,9 @@ const Card = ({ item }) => {
     console.log(item);
     return (
 
-        <Link to={`/products/${item.id}`}>
+        <Link to={`/product/${item.id}`}>
             <div className="w-60 flex flex-col gap-2">
+
 
                 <div className="img-box w-[100%] h-[300px] overflow-hidden relative">
                     {item.isNew && <span className="absolute z-[2] bg-white text-blue-500 font-medium ml-1 opacity-90">New Season</span>}
